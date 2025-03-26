@@ -12,9 +12,8 @@ Before running the script, make sure you have:
 **2. Install Dependencies**
 Open a terminal or command prompt and run:
 ```bash
-
-
-pip install moviepy  
+pip install instagrapi schedule
+pip install moviepy==1.0.3 
 ```
 This installs the necessary Python packages:
 - `instagrapi`: For interacting with Instagram

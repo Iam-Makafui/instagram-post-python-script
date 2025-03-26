@@ -1,0 +1,3 @@
+instagrapi
+schedule
+moviepy==1.0.3
