@@ -68,7 +68,7 @@ def post_story():
     except Exception as e:
         print(f"Error: {e}")
 
-schedule.every().day.at("21:46").do(post_story)
+schedule.every().day.at("21:50").do(post_story)
 
 print("Script running... Posting stories daily at 8 AM.")
 while True:
