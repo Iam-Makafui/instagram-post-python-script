@@ -70,7 +70,7 @@ def post_story():
 
 schedule.every().day.at("23:06").do(post_story)
 
-print("Script running... Posting stories daily.")
+print("Script running... Posting stories daily 7:06.")
 while True:
     schedule.run_pending()
     time.sleep(60)
